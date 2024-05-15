@@ -1,0 +1,199 @@
+@import url('https://fonts.google.com/specimen/Sedan+SC');
+*{
+    margin: 0;/*обнуление отступов*/
+    padding: 0;/*обнуление полей*/
+    box-sizing: border-box;/*метод расчета размеров бокса*/
+    font-family: 'Sedan SC';/*название шрифта*/
+}
+footer {
+  position: relative; /*относительное позиционирование*/
+  width: 100%; /*на всю ширину*/
+  padding: 20px 50px; /*поля для контента*/
+  background: #000000; /*цвет футера*/
+  display: flex;
+  justify-content: center; /*в центре по горизонтали*/
+  align-items: center; /*в центре по вертикали*/
+  flex-direction: column;
+  margin-top: 100px; /*отступ сверху*/
+}
+footer .wave {
+  position: absolute; /*абсолютное позиционирование*/
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(wave.png); /*картинка волны*/
+  background-size: 1000px 100px; /*ширина и высота волны*/
+}
+.social,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap; /*разрешен перенос на новую строку*/
+}
+.social li,
+.menu li {
+  list-style: none; /*удалить черные маркеры*/
+}
+.social li a {
+  font-size: 2em; /*размер иконок*/
+  color: #fff; /*цвет иконок*/
+  margin: 0 10px;
+  display: inline-block; /*отображать как строчно-блочный элемент*/
+  transition: 0.5s; /*плавный переход*/
+}
+.menu li a {
+  font-size: 1.2em; /*размер ссылок меню*/
+  color: #fff; /*цвет ссылок меню*/
+  opacity: 0.75; /*значение прозрачности*/
+  margin: 0 15px;
+  text-decoration: none; /*ссылка без подчеркивания*/
+  display: inline-block;
+}
+.menu li a:hover {
+  opacity: 1;
+}
+footer p {
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.image {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.section21 p,
+h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 52px 52px 52px 52px;
+}
+#navbar-example2 {
+  position: sticky;
+  top: 0px;
+  padding: 0px;
+  padding-inline: 40px;
+}
+.img-fluid {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+.section23 p,
+h1 {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+h3 {
+  font-size: 17pt;
+}
+h4 {
+  font-size: 15pt;
+}
+.col {
+  font-size: 20pt;
+}
+.col b {
+  font-size: 40pt;
+  text-align: left;
+}
+.col-3 b {
+  font-size: 40pt;
+  text-align: left;
+}
+table {
+  font-size: 14pt;
+}
+.technology p {
+  font-size: 16pt;
+  padding: 40px;
+}
+.containertextleft {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.containertextleft img {
+  filter: brightness(50%);
+}
+.top-left {
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  font-size: 40pt;
+}
+.containertextleft .btn {
+  position: absolute;
+  top: 190px;
+  left: 110px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.containertextleft .btn:hover {
+  background-color: rgb(107, 107, 107);
+}
+.containertextleft .btn1 {
+  position: absolute;
+  top: 190px;
+  left: 270px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
+.containertextleft .btn1:hover {
+  background-color: rgb(107, 107, 107);
+}
+.container-xl p {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 30px 30px 30px 30px;
+}
+.carousel-item b,
+h6 {
+  font-size: 1.4rem;
+  text-align: left;
+}
+.figure-caption b,
+h6 {
+  font-size: 1.4rem;
+  text-align: left;
+}
+.modeli {
+  display: flex;
+  font-size: 12pt;
+  margin-left: -20px;
+  padding: 30px 30px 30px 30px;
+}
+.card img {
+  filter: brightness(60%);
+}
